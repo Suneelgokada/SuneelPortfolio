@@ -8,8 +8,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "postinstall": "npx update-browserslist-db@latest"
-
+    "postinstall": "npx update-browserslist-db@latest",
+    "preview": "vite preview"
   },
   "dependencies": {
     "framer-motion": "^12.0.5",
