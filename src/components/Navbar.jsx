@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from '/gslogo.png';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import { SiLeetcode } from 'react-icons/si';
 
@@ -9,7 +8,7 @@ const Navbar = () => {
       <div className="flex items-center">
         <a href="/">
           <img
-            src={logo}
+            src='/gslogo.png'
             alt="logo"
             className="w-14 h-14 cursor-pointer z-10"
           />
