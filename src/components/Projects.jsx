@@ -19,7 +19,7 @@ function Projects() {
               />
             </motion.div>
             <motion.div whileInView={{opacity:1,x:0}} initial={{opacity:0, x:100}} transition={{duration: 1.25}}  className='w-full max-w-xl lg:w-3/4'>
-              <h6 className='mb-2 font-semibold flex text-2xl'>{project.title} <span className='ml-5'> <a href='https://github.com/rakeshvs1202' target='blank' > <FaArrowUpRightFromSquare /> </a></span></h6>
+              <h6 className='mb-2 font-semibold flex text-2xl'>{project.title} <span className='ml-5'> <a href='https://github.com/Suneelgokada' target='blank' > <FaArrowUpRightFromSquare /> </a></span></h6>
               <p className='mb-4 text-neutral-400 text-lg'>{project.description}</p>
               <div>
                 {project.technologies.map((tech, techIndex) => (

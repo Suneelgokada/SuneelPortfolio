@@ -37,9 +37,6 @@ function HeroComp() {
             >
               Download my resume <span><FaDownload /></span>
             </motion.a>
-
-
-
           </div>
         </div>
         <div className='w-full lg:w-1/2 lg:p-8 '>

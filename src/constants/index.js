@@ -34,32 +34,32 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Fitness Tracker",
+    title: "Meat Delivery App",
     image: fitnessTrackerImg,
     description:
-      "A fitness tracker website allows users to track their daily activities, set their diet plans and visualize their reports.",
-    technologies: ["React JS", "Spring Boot", "PostgreSQL"],
+      "A multi-vendor meat delivery user application that allows customers to browse products from multiple vendors, add items to cart, and place orders easily. Users can securely log in using mobile number authentication and complete orders with integrated payment support, ensuring a smooth and reliable ordering experience.",
+    technologies: ["React JS", "Node.js", "Express.js", "MongoDB", "JWT Authentication"],
   },
   {
-    title: "Portfolio Website",
+    title: "Meat Delivery App – Admin & Vendor Dashboard",
     image: project1,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Framer motion"],
+      "A centralized Admin and Vendor dashboard designed to manage the multi-vendor meat delivery platform efficiently. The Admin creates vendor accounts, defines product categories, and controls platform data, while vendors manage their products under assigned categories and receive instant notifications when users place orders.",
+    technologies: ["React JS", "Node.js", "Express.js", "MongoDB", "JWT Authentication" ],
   },
   {
-    title: "Maze Game",
+    title: "Itrika Inc",
     image: mazeGame,
     description:
-      "Designed a webpage where user can play this game by moving the ball from start to end point passing through obstacles finding a path .",
-    technologies: ["HTML", "CSS", "Javascript"],
+      "Designed and developed a full-stack corporate website and custom Admin Dashboard for a US-based client, enabling dynamic management of job postings and website content through a secure and scalable platform. The system provides a responsive user interface and a role-based admin panel to efficiently create, update, and manage job listings with seamless frontend-backend integration.",
+    technologies: ["React JS", "Node.js", "Express.js", "MongoDB"],
   },
   {
-    title: "Sorting Visualizer",
+    title: "Invoice & Quotation Management System",
     image: sortingVisualizerImg,
     description:
-      "Designed a webpage where user can set array lengths and visualize how fast each individual algorithms work such as Bubble Sort, Quick Sort and Merge Sort.",
-    technologies: ["HTML", "CSS", "Javascript"],
+      "Engineered a full-stack invoice and quotation management system with role-based dashboards for Admin and Users. The platform supports automated invoice and quotation generation, secure data storage, CRUD operations, expense tracking (Bill Book), and revenue analytics with graphical reports. Admin users can manage invoices, quotations, and expenses, while standard users can generate and print invoices and quotations efficiently.",
+    technologies: ["React JS", "Spring Boot", "MySQL"],
   },
 ];
 
